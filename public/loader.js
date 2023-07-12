@@ -5,7 +5,7 @@ async function impl_run() {
         }
     }
     miniquad_add_plugin({register_plugin});
-    load("/basement.wasm");
+    load("/public/basement.wasm");
 };
 
 impl_run();
