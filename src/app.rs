@@ -49,7 +49,7 @@ pub fn hall() -> Html {
         let img_src = img_src.clone();
         Callback::from(move |event: MouseEvent| {
                 event.prevent_default();
-                img_src.set("/public/jadepixel_walking.gif".to_owned());
+                img_src.set("/orange-museum/public/jadepixel_walking.gif".to_owned());
             }
         )
     };
@@ -58,7 +58,7 @@ pub fn hall() -> Html {
         let img_src = img_src.clone();
         Callback::from(move |event: MouseEvent| {
                 event.prevent_default();
-                img_src.set("/assets/spr_player_down.png".to_owned());
+                img_src.set("/orange-museum/assets/spr_player_down.png".to_owned());
             }
         )
     };
@@ -82,8 +82,8 @@ pub fn hall() -> Html {
                     <div id="contact-area" class="border-framed">
                         <h1>{"Contact me"}</h1>
                         <ul id="contact-list" class="unstyled-list">
-                        <li><a href="https://www.instagram.com/orangethewell/"> <img src="/public/instagram.svg"/> {"Instagram"} </a></li>
-                        <li><a href="mailto:orangethewell@gmail.com"> <img src="/public/email.svg"/> {"E-mail"} </a></li>
+                        <li><a href="https://www.instagram.com/orangethewell/"> <img src="/orange-museum/public/instagram.svg"/> {"Instagram"} </a></li>
+                        <li><a href="mailto:orangethewell@gmail.com"> <img src="/orange-museum/public/email.svg"/> {"E-mail"} </a></li>
                         </ul>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ pub fn basement(props: &BasementProps) -> Html {
                 <canvas id="glcanvas" tabindex="1"></canvas>
                 <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
                 <script src="https://not-fl3.github.io/miniquad-samples/gl.js"></script>
-                <script src="/public/loader.js"></script>
+                <script src="/orange-museum/public/loader.js"></script>
             </>
         }
     }
