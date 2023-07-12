@@ -106,20 +106,20 @@ async fn main() {
     };
 
     let player_spritesheets = vec![
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_down.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_down_walk.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_left.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_left_walk.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_right.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_right_walk.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_up.png"), Some(ImageFormat::Png)),
-        Image::from_file_with_format(include_bytes!("../../dist/assets/spr_player_up_walk.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_down.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_down_walk.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_left.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_left_walk.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_right.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_right_walk.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_up.png"), Some(ImageFormat::Png)),
+        Image::from_file_with_format(include_bytes!("../../assets/spr_player_up_walk.png"), Some(ImageFormat::Png)),
         ];
 
-    let plate_sprite = Texture2D::from_file_with_format(include_bytes!("../../dist/assets/spr_plate.png"), Some(ImageFormat::Png));
+    let plate_sprite = Texture2D::from_file_with_format(include_bytes!("../../assets/spr_plate.png"), Some(ImageFormat::Png));
     plate_sprite.set_filter(FilterMode::Nearest);
 
-    let light_sprite = Texture2D::from_file_with_format(include_bytes!("../../dist/assets/spr_light.png"), Some(ImageFormat::Png));
+    let light_sprite = Texture2D::from_file_with_format(include_bytes!("../../assets/spr_light.png"), Some(ImageFormat::Png));
     light_sprite.set_filter(FilterMode::Nearest);
 
 
