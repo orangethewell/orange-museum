@@ -461,7 +461,7 @@ html, body {
   image-rendering: pixelated;
   border-radius: 18px;
   border: 12px solid transparent;
-  border-image: url("/public/border.png") 8 stretch;
+  border-image: url("/orange-museum/public/border.png") 8 stretch;
   font-family: 'DotGothic16', sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -536,7 +536,7 @@ html, body {
 
 // Hall Styling
 #homepage {
-  background-image: url("/public/brickwall.png");
+  background-image: url("/orange-museum/public/brickwall.png");
   image-rendering: pixelated;
   background-repeat: repeat;
   background-size: 64px 64px;
@@ -629,7 +629,7 @@ html, body {
   border-radius: 68px;
   padding: 0px 120px;
   background-color: #d9a066;
-  border-image: url("/public/border.png") 30 stretch;
+  border-image: url("/orange-museum/public/border.png") 30 stretch;
 }
 
 // -------------------------------------------------------
@@ -647,7 +647,7 @@ html, body {
   box-shadow: #000000aa 8px 8px;
   border-radius: 18px;
   border: 12px solid transparent;
-  border-image: url("/public/border.png") 8 stretch;
+  border-image: url("/orange-museum/public/border.png") 8 stretch;
 }
 
 .underline {
