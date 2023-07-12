@@ -43,7 +43,7 @@ pub fn front_door() -> Html {
 #[function_component(Hall)]
 pub fn hall() -> Html {
     let orange_num = use_state(|| LocalStorage::get("oranges").unwrap_or_else(|_| 0));
-    let img_src = use_state(|| String::from("/assets/spr_player_down.png"));
+    let img_src = use_state(|| String::from("/orange-museum/assets/spr_player_down.png"));
     
     let img_onover = {
         let img_src = img_src.clone();
