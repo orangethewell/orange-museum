@@ -70,6 +70,24 @@ pub fn hall() -> Html {
             <div id="content-area" class="max-expand">
                 <div class="flex-container-1-per-3 max-expand">
                     <div id="post-area">
+                        <div id="post-1" class="border-framed post">
+                                <h1>{"Some fixes and some news!"}</h1>
+                                <p class="creation-date">{"made in September 19th, 2023"}</p>
+                                <p>{"After three months, finally I fixed the secret on the website corner. It
+                                was a dirty dish to clean after all this time. But I made it clean and working.
+                                "}</p>
+                                <p>{"After all, this isn't the only news I have, I also have the good news that I'm
+                                working as a developer for a website! And maybe with this money we will have the
+                                orange museum online with a backend! I'm really happy to announce this."}</p>
+                                <p>{"Working as artist is kinda exausting. I had been sorta inactive these
+                                months. I still don't have any new artistic project other than one about god's 
+                                peace and a musical clip."}</p>
+                                <p>{"I think this is all, thank you for reading this! Let me
+                                take a nap now."}</p>
+                                <div id="img-post1">
+                                <img style="width: 25%; height: auto" src="/orange-museum/public/sleeping.gif"/>
+                                </div>
+                        </div>
                         <div id="welcome-post" class="border-framed post">
                             <h1>{"Hello, world!"}</h1>
                             <p class="creation-date">{"made in July 12th, 2023"}</p>
